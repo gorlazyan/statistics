@@ -205,7 +205,7 @@ fig = go.Figure(data=[go.Sankey(
 #     ))
 
 fig.update_layout(
-    title=dict(text="The structure of residents' deposits in Armenia (as of June 2025)", x=0.5, xanchor="center"),
+    title=dict(text="The structure of residents' deposits in Armenia (as of July 2025)", x=0.5, xanchor="center"),
     font_size=12, margin=dict(l=10,r=10,t=80,b=10),  # extra right margin for labels
     paper_bgcolor="white"# ,    annotations=annotations
 )
@@ -221,4 +221,5 @@ fig.show()  # <-- preview first in a browser window
 out_path = "C:/Users/Gor_Lazyan/Downloads/deposit_alluvial.html"
 pio.write_html(fig, file=out_path, auto_open=False)
 out_path
+
 
