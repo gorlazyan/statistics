@@ -222,4 +222,3 @@ out_path = "C:/Users/Gor_Lazyan/Downloads/deposit_alluvial.html"
 pio.write_html(fig, file=out_path, auto_open=False)
 out_path
 
-
