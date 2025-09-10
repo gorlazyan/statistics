@@ -242,3 +242,4 @@ out_path = "D:/MFS/Works/Articles/Loans/loans_alluvial.html"
 pio.write_html(fig, file=out_path, auto_open=False)
 out_path
 
+
